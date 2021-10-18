@@ -1,0 +1,59 @@
+From White:
+
+A-H from Queenside to Kingside
+1-8 from White's side
+
+8 r  n  b  q  k  b  n  r
+7
+6
+5
+4
+3
+2 p  p  p  p  p  p  p  p
+1 r  n  b  q  k  b  n  r
+  A  B  C  D  E  F  G  H
+
+
+Piece types:
+
+Not specified: pawn
+
+R: rook
+N: knight
+B: bishop
+Q: queen
+K: king
+
+Movement:
+
+(Character's uppercase letter) + (If capturing, type x) + (Destination)
+
+eg.
+Pawn moves to c5: c5
+Pawn on rank 4 captures piece on c5: 4xc5
+Bishop captures piece on e5: Bxe5
+
+Disambiguation:
+If two or more identical pieces can move to the same square, the moving piece is specified by:
+
+1: File of departure (Letter/ Column)
+2: Rank of departure (Number/ Row)
+3: Both file and rank (in rare cases)
+
+En passant:
+(capturing pawn's file of departure) + x + (destination square)
+eg. pawn on e5 captures pawn on d5 with en passant: exd6
+
+Pawn Promotion:
+Indicate piece to be promoted at the end of notation
+eg. e8Q
+
+Castling:
+0-0 for Kingside
+0-0-0 for Queenside
+
+Check:
+Append '+' to the end of move input
+
+Checkmate:
+Append '#' to the end of move input
